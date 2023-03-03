@@ -1,0 +1,48 @@
+Box Model:
+
+//If padding and border should stay in width %
+box-sizing: content-box;
+
+
+Selectors:
+
+article p:first-of-type {
+  color: red;
+  font-size: 1.5em;
+}
+
+Data types are cool
+[data-type='primary'] {
+  color: red;
+}
+
+Instead of looking for a specific value of data-type, you can also look for elements with the attribute present, regardless of its value.
+[data-type] {
+  color: red;
+}
+
+Group Selectors:
+em,
+.my-class,
+[lang] {
+  color: red;
+}
+
+p:nth-child(even) {
+  background: floralwhite;
+}
+
+// + is In opeartor. So: Any child of top
+.top + * {
+  margin-top: 1.5em;
+}
+
+By using the > character, you limit the combinator selector to apply only to direct children.
+.top > * {
+  margin-top: 1.5em;
+}
+
+This wouldn't apply a red color to all links and it would also only apply the red color to .my-class if it was on an <a> element.
+a.my-class {
+  color: red;
+}

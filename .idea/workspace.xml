@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8783b882-c8af-45cf-88c4-1116a2ac9d4f" name="Default Changelist" comment="" />
+    <list default="true" id="8783b882-c8af-45cf-88c4-1116a2ac9d4f" name="Default Changelist" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Things I have learned" beforeDir="false" afterPath="$PROJECT_DIR$/Things I have learned" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,12 +32,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2MPhcVE9sd74vezBcqsBbQDTziI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +50,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="course1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CssTraining/html/course1.html" useBuiltInWebServerPort="true">
@@ -45,11 +78,69 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677675203190</updated>
-      <workItem from="1677675204254" duration="345000" />
+      <workItem from="1677675204254" duration="2823000" />
+      <workItem from="1677788273347" duration="1641000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1677675623297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677675623297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Shish">
+      <created>1677788296491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677788296491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Shish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shish" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1008" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677788281817">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1008" y="490" key="#com.intellij.fileTypes.FileTypeChooser/-1920.5.1920.1040/2560.0.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1677788281817" />
+    <state x="1065" y="310" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1677676045364">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1065" y="310" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1920.5.1920.1040/2560.0.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1677676045364" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1677791273445">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/-1920.5.1920.1040/2560.0.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1677791273445" />
+    <state x="1060" y="441" key="FileChooserDialogImpl" timestamp="1677675647437">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="441" key="FileChooserDialogImpl/-1920.5.1920.1040/2560.0.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1677675647437" />
+    <state x="1156" y="602" key="Github.ShareDialog" timestamp="1677676008324">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1156" y="602" key="Github.ShareDialog/-1920.5.1920.1040/2560.0.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1677676008324" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1677676038234">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/-1920.5.1920.1040/2560.0.1440.2520/0.0.2560.1400@0.0.2560.1400" timestamp="1677676038234" />
   </component>
 </project>
