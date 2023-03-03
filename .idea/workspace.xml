@@ -22,6 +22,8 @@
     <list default="true" id="8783b882-c8af-45cf-88c4-1116a2ac9d4f" name="Default Changelist" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Things I have learned" beforeDir="false" afterPath="$PROJECT_DIR$/Things I have learned" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/course1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/course1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/course1.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/course1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,8 @@
       <updated>1677675203190</updated>
       <workItem from="1677675204254" duration="2823000" />
       <workItem from="1677788273347" duration="1641000" />
+      <workItem from="1677838826439" duration="19000" />
+      <workItem from="1677848381811" duration="2879000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1677675623297</created>
@@ -95,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677788296491</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first step">
+      <created>1677838838520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677838838520</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,11 +122,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Shish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shish" />
+    <MESSAGE value="first step" />
+    <option name="LAST_COMMIT_MESSAGE" value="first step" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1008" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677788281817">

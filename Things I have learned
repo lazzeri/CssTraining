@@ -11,6 +11,7 @@ article p:first-of-type {
   font-size: 1.5em;
 }
 
+
 Data types are cool
 [data-type='primary'] {
   color: red;
@@ -32,17 +33,55 @@ p:nth-child(even) {
   background: floralwhite;
 }
 
-// + is In opeartor. So: Any child of top
-.top + * {
+div:not(.my-class) {
+  color: red;
+}
+
+Attribute Selector
+[href='#'] {
+  color: red;
+}
+
+Article then all children, then a: So: all a's that are children of article.
+article * a {
   margin-top: 1.5em;
 }
 
-By using the > character, you limit the combinator selector to apply only to direct children.
-.top > * {
-  margin-top: 1.5em;
+This will only select children of article
+article > a {
+  color: maroon;
 }
 
-This wouldn't apply a red color to all links and it would also only apply the red color to .my-class if it was on an <a> element.
+This will affect all children and all other children in article
+article a {
+  color: maroon;
+}
+
+Selects all elements with class 'my-class' & are type <a>
 a.my-class {
   color: red;
 }
+
+Inheritance:
+
+Unset sets back to default.
+  all: unset;
+  color: unset;
+
+
+
+Units:
+
+Font Size: rem
+
+if html font-size = 62.5%
+1 rem = 10px
+
+width: - % + max-width;
+on with for items with texts: ch
+
+height: //Do I have to? maybe can use min-height?
+if not: rem or %
+
+padding or margin: rem
+em = proportional to char. useful for bigger margins etc.
