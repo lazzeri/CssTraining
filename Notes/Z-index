@@ -1,0 +1,5 @@
+Most important:
+
+Two neighbours have the same context of z-index
+Kids are always higher then parents
+The z-index only matters on neighbours, kids are their own layer

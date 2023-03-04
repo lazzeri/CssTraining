@@ -1,0 +1,13 @@
+//OR Selector
+.post :is(h1, h2, h3) {
+	line-height: 1.2;
+}
+
+//Variablen
+:root {
+	--base-color: #ff00ff;
+}
+
+.my-element {
+	background: var(--base-color);
+}

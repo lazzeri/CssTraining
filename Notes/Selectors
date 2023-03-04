@@ -1,10 +1,65 @@
 Selectors:
 
+LIKE HOVER
+
 //On click the thing clicked
 :active
 
 //Focus:
-:focus, :focus-within, and :focus-visible
+Use this for when a use tabs on item or select it with click
+:focus
+
+//This for only tab
+button:focus-visible {
+	outline: 1px solid black;
+}
+
+//This for a child element focus
+:focus-within .helper {
+  display: block;
+}
+
+//This to only have on tab
+button:focus {
+	outline: none;
+}
+
+button:focus-visible {
+	outline: 2px dashed blue;
+  outline-offset: 2px;
+}
+
+//For visited links
+a:link {
+  color: blue;
+}
+a:visited {
+  color: black;
+}
+
+//Disabled enabled buttons:
+button:disabled {
+button:enabled
+
+//Checkboxes
+:checked
+
+//Number Value with min and max att set
+:in-range
+
+//NICE TO KNOW
+:first-child
+:last-child
+:only-child
+
+//First type of div in .my-parent
+.my-parent div:first-of-type {
+	color: red;
+}
+
+//NICE ONE
+:empty
+----------------------
 
 
 p::first-letter {
@@ -24,7 +79,8 @@ article p:first-of-type {
 }
 
 
-Data types are cool
+
+IMP ---  Data types are cool
 [data-type='primary'] {
   color: red;
 }
@@ -34,6 +90,7 @@ Instead of looking for a specific value of data-type, you can also look for elem
   color: red;
 }
 
+
 Group Selectors:
 em,
 .my-class,
@@ -42,6 +99,10 @@ em,
 }
 
 p:nth-child(even) {
+  background: floralwhite;
+}
+
+p:nth-of-type(even) {
   background: floralwhite;
 }
 
@@ -59,7 +120,7 @@ article * a {
   margin-top: 1.5em;
 }
 
-This will only select children of article
+This will only select children of article of type a
 article > a {
   color: maroon;
 }

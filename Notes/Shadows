@@ -1,0 +1,40 @@
+picture shadow:
+figure img {
+  filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 80%))
+}
+
+//cool color border:
+.my-element {
+  box-shadow: 0px 0px 20px 5px darkslateblue;
+  border-radius: 25px;
+}
+
+/* Presentational styles */
+.my-element {
+  width: 250px;
+  height: 250px;
+  background: var(--color-primary-x-light);
+  margin: 1em 2em;
+}
+
+
+//Cool text shadow:
+.my-element {
+  text-shadow: 3px 3px 3px gold;
+  color: rgb(0 0 0 / 70%);
+}
+
+/* Presentational styles */
+.my-element {
+  --flow-space: 2rem;
+  font-size: 5em;
+  font-weight: 900;
+  line-height: 1.1;
+  max-width: 40ch;
+}
+
+//img shadow with color
+figure img:hover {
+  filter: drop-shadow(0px 0px 10px hotpink) drop-shadow(10px 10px 20px rgba(0 0 0 / 30%))
+}
+
