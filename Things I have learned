@@ -85,3 +85,115 @@ if not: rem or %
 
 padding or margin: rem
 em = proportional to char. useful for bigger margins etc.
+
+
+Flexbox
+They can display as a row, or a column.
+They are single line by default, but can be asked to wrap onto multiple lines.
+Items in the layout can be visually reordered, away from their order in the DOM.
+Space can be distributed inside the items, so they become bigger and smaller according to the space available in their parent.
+Space can be distributed around the items and flex lines in a wrapped layout, using the Box Alignment properties.
+The items themselves can be aligned on the cross axis.
+
+
+flex-direction:
+row: the items lay out as a row.
+row-reverse: the items lay out as a row from the end of the flex container.
+column: the items lay out as a column.
+column-reverse : the items lay out as a column from the end of the flex container.
+
+//How to add overflow
+flex-wrap: wrap;
+The initial value of the flex-wrap property is nowrap. This means that if there is not enough space in the container the items will overflow.
+
+//To shrink or grow size of items:
+flex: 1;
+flex: 2;
+flex: 3;
+
+//Reorder items:
+order: 1,2,3,4
+
+//X - Axis Alignment
+justify-content: space distribution on the main axis.
+//Y - Axis Alignment
+align-items: space distribution on the cross axis.
+//X - Y Axis Alignment
+place-content: a shorthand for setting both of the above properties.
+
+//To set flex direction of child-items
+align-self: flex-start
+
+---
+MINMAX:
+set min and max at same time.
+
+GRID
+//For distributed size: 1fr !!
+    //For 12 columns
+    grid-template-columns: repeat(12, minmax(0,1fr));
+
+    Cool way to generate:
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 200px 100px);
+    }
+
+    To set both in one:
+            grid: repeat(4, 1fr) / repeat(2, 200px 100px);
+
+if a row or column just has to take max:   grid-template-columns: auto auto auto;
+
+
+grid-template-columns: 5em 100px 30%;  //Width of Items, the more numbers you add the more colums you get
+grid-template-rows: 100px auto; //Height of items, the more numbers you add the more colums you get
+gap: 10px; // gap between columns
+
+//Will auto fill a size of 200px so it will be in the size, but not balanced
+grid-template-columns: repeat(auto-fill, 200px);
+
+//This will fill it out, RESIZE CHANGES IT
+grid-template-columns: repeat(auto-fit, 200px);
+
+//To position items individually:
+.item {
+    grid-column-start: 1; /* start at column line 1 */
+    grid-column-end: 4; /* end at column line 4 */
+    grid-row-start: 2; /*start at row line 2 */
+    grid-row-end: 4; /* end at row line 4 */
+    background: cornflowerblue;
+    max-width: 30rem;
+}
+
+
+grid-template-areas:
+You can set different positions to items, not really needed
+
+
+grid-template-rows
+grid-template-columns
+grid-template-areas
+grid-auto-rows
+grid-auto-columns
+grid-auto-flow
+
+content gets aligned the same way as flex.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
