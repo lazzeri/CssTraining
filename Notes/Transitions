@@ -1,0 +1,49 @@
+
+//Transitions make change smooth:
+.square.has-transition {
+  transition: transform 150ms ease-in-out;
+}
+
+//This me
+.square:hover {
+  transform: scale(1.4);
+}
+
+//Specify what to transition
+.my-element {
+  transition-property: background-color;
+}
+
+//Duration
+  transition-duration: 200ms;
+
+
+//Very cool:
+    - cubic : modern
+    - linear: normal
+    - ease-in
+    - ease-out
+  transition-timing-function: ease;
+
+transition-delay
+
+
+.longhand {
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+//Cool hover effect
+.square:is(:hover, :focus) {
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+
+//Filter Transition, that makes picture black and white
+.emoji {
+  font-size: 8em;
+  filter: grayscale(100%);
+  transition: filter 450ms ease;
+}

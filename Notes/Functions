@@ -3,6 +3,11 @@
 	line-height: 1.2;
 }
 
+//Very Cool
+.square:is(:hover, :focus) {
+  transform: scale(1.5) rotate(135deg);
+}
+
 //Variablen
 :root {
 	--base-color: #ff00ff;
