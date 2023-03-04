@@ -1,0 +1,53 @@
+
+GRID
+//For distributed size: 1fr !!
+    //For 12 columns
+    grid-template-columns: repeat(12, minmax(0,1fr));
+
+    Cool way to generate:
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 200px 100px);
+    }
+
+    To set both in one:
+            grid: repeat(4, 1fr) / repeat(2, 200px 100px);
+
+if a row or column just has to take max:   grid-template-columns: auto auto auto;
+
+
+grid-template-columns: 5em 100px 30%;  //Width of Items, the more numbers you add the more colums you get
+grid-template-rows: 100px auto; //Height of items, the more numbers you add the more colums you get
+gap: 10px; // gap between columns
+
+//Will auto fill a size of 200px so it will be in the size, but not balanced
+grid-template-columns: repeat(auto-fill, 200px);
+
+//This will fill it out, RESIZE CHANGES IT
+grid-template-columns: repeat(auto-fit, 200px);
+
+//To position items individually:
+.item {
+    grid-column-start: 1; /* start at column line 1 */
+    grid-column-end: 4; /* end at column line 4 */
+    grid-row-start: 2; /*start at row line 2 */
+    grid-row-end: 4; /* end at row line 4 */
+    background: cornflowerblue;
+    max-width: 30rem;
+}
+
+
+grid-template-areas:
+You can set different positions to items, not really needed
+
+
+grid-template-rows
+grid-template-columns
+grid-template-areas
+grid-auto-rows
+grid-auto-columns
+grid-auto-flow
+
+content gets aligned the same way as flex.
+---

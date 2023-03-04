@@ -1,0 +1,40 @@
+Flexbox
+They can display as a row, or a column.
+They are single line by default, but can be asked to wrap onto multiple lines.
+Items in the layout can be visually reordered, away from their order in the DOM.
+Space can be distributed inside the items, so they become bigger and smaller according to the space available in their parent.
+Space can be distributed around the items and flex lines in a wrapped layout, using the Box Alignment properties.
+The items themselves can be aligned on the cross axis.
+
+
+flex-direction:
+row: the items lay out as a row.
+row-reverse: the items lay out as a row from the end of the flex container.
+column: the items lay out as a column.
+column-reverse : the items lay out as a column from the end of the flex container.
+
+//How to add overflow
+flex-wrap: wrap;
+The initial value of the flex-wrap property is nowrap. This means that if there is not enough space in the container the items will overflow.
+
+//To shrink or grow size of items:
+flex: 1;
+flex: 2;
+flex: 3;
+
+//Reorder items:
+order: 1,2,3,4
+
+//X - Axis Alignment
+justify-content: space distribution on the main axis.
+//Y - Axis Alignment
+align-items: space distribution on the cross axis.
+//X - Y Axis Alignment
+place-content: a shorthand for setting both of the above properties.
+
+//To set flex direction of child-items
+align-self: flex-start
+
+---
+MINMAX:
+set min and max at same time.

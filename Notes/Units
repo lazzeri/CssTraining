@@ -1,0 +1,15 @@
+Units:
+
+Font Size: rem
+
+if html font-size = 62.5%
+1 rem = 10px
+
+width: - % + max-width;
+on with for items with texts: ch
+
+height: //Do I have to? maybe can use min-height?
+if not: rem or %
+
+padding or margin: rem
+em = proportional to char. useful for bigger margins etc.

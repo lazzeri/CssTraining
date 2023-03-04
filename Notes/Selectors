@@ -1,0 +1,81 @@
+Selectors:
+
+//On click the thing clicked
+:active
+
+//Focus:
+:focus, :focus-within, and :focus-visible
+
+
+p::first-letter {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+p::first-line {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+
+article p:first-of-type {
+  color: red;
+  font-size: 1.5em;
+}
+
+
+Data types are cool
+[data-type='primary'] {
+  color: red;
+}
+
+Instead of looking for a specific value of data-type, you can also look for elements with the attribute present, regardless of its value.
+[data-type] {
+  color: red;
+}
+
+Group Selectors:
+em,
+.my-class,
+[lang] {
+  color: red;
+}
+
+p:nth-child(even) {
+  background: floralwhite;
+}
+
+div:not(.my-class) {
+  color: red;
+}
+
+Attribute Selector
+[href='#'] {
+  color: red;
+}
+
+Article then all children, then a: So: all a's that are children of article.
+article * a {
+  margin-top: 1.5em;
+}
+
+This will only select children of article
+article > a {
+  color: maroon;
+}
+
+This will affect all children and all other children in article
+article a {
+  color: maroon;
+}
+
+Selects all elements with class 'my-class' & are type <a>
+a.my-class {
+  color: red;
+}
+
+Inheritance:
+
+Unset sets back to default.
+  all: unset;
+  color: unset;
