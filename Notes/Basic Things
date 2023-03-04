@@ -1,0 +1,8 @@
+
+For root we can set:
+
+*, *::before, *::after{
+box-sizing: border-box;
+margin-top: 0;
+}
+
