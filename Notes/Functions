@@ -11,3 +11,54 @@
 .my-element {
 	background: var(--base-color);
 }
+
+//IF has var, else uses hotpink
+.my-element {
+	background: var(--base-color, hotpink);
+}
+
+//THIS IS BIG BOI
+.my-element {
+	width: calc(100% - 2rem);
+}
+
+//Example for main Container:
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.my-element {
+	width: calc(100% - 2rem);
+  background-color: papayawhip;
+  border: 1px solid gold;
+}
+
+//Get min or max value
+  width: min(20vw, 30rem);
+  height: max(20vh, 20rem);
+
+
+//Get best middle max or min:
+  font-size: clamp(2rem, 1rem + 3vw, 3rem);
+
+
+//Image modifications:
+  clip-path: circle(50%);
+
+.polygon {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+//To rotate
+  transform: rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+
+
+//better then absolute:
+  transform: translatex(40px) translatey(25px);
+
+//Mace object more "italic"
+  transform: skew(10deg);
+

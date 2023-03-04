@@ -1,0 +1,38 @@
+Standard:
+<ol>
+  <li>oat milk</li>
+  <li>rhubarb</li>
+  <li>cereal</li>
+  <li>pie crust</li>
+</ol>
+
+
+//Picture for list:
+ul {
+/*   list-style-image: linear-gradient(to left bottom, pink, teal); */
+  list-style-image: url("https://i.imgur.com/jMyOape.gif");
+}
+
+
+//Rather than picture: Emoji
+ list-style-type: "🛒";
+
+
+Or with css:
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+https://web.dev/learn/css/lists/
+::marker {
+  content: var(--content);
+  font-size: var(--font-size);
+  color: var(--color);
+  animation: var(--animation);
+}
+

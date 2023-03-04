@@ -1,0 +1,28 @@
+.my-element {
+	filter: blur(0.2em);
+}
+
+.my-element {
+	filter: brightness(80%);
+}
+
+//Black and white
+.my-element {
+	filter: grayscale(80%);
+}
+
+.my-element {
+	filter: opacity(0.3);
+}
+
+
+
+//To add color layers over pictures
+.duotone::after {
+  background: hotpink;
+  mix-blend-mode: multiply;
+}
+.duotone::before {
+  background: navy;
+  mix-blend-mode: lighten;
+}
