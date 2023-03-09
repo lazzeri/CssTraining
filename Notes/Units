@@ -13,3 +13,8 @@ if not: rem or %
 
 padding or margin: rem
 em = proportional to char. useful for bigger margins etc.
+
+
+Something like this for width, can also use for height:
+width: clamp(15rem, 70vw, 45rem);
+Needs % in the middle (or vw/vh)), and left right are rem

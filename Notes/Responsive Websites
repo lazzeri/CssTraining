@@ -1,0 +1,36 @@
+Mega cool site:
+https://utopia.fyi/
+
+
+To make images fit the container:
+max-width = 100%;
+
+//Start with color backgrounds and spacing
+
+
+//Media Queries
+//Can be used to add complexity, but try not to overwrite values if possible
+@media (min-width: 40em){
+.split{
+display:flex;
+gap: 2em;
+}
+}
+
+WHEN SETTING MIN AND MAX
+//MIN IDEAL MAX
+font-size: clamp(10vw, 10vw + 1rem, 5rem);
+
+Min:
+//Search the smaller one of both:
+//TO MAKE SMALLER ON SMALL
+//Or 90% or 1000px
+min(90%, 1000px)
+Max:
+//Search the bigger one of both:
+//TO MAKE BIGGER ON BIG
+padding: max(3vh, 1rem)
+
+
+//For setting some content 100%
+set height: 100vxy;

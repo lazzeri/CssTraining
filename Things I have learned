@@ -1,3 +1,9 @@
+Always do:
+*{
+box-sizing: border-box;
+}
+
+
 Box Model:
 
 //If padding and border should stay in width %
@@ -10,7 +16,10 @@ Use margin to center stuff:
 
 margin: auto 0;
 margin: auto auto;
+
+//mainly this
 margin: 0 auto;
+
 
 
 

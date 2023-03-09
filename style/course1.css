@@ -1,10 +1,10 @@
 .container {
-    display: grid;
-    grid: 80px / repeat(2,80px) 120px;
-
+    background: blue;
+    width: clamp(10vw, 30vw, 30vw);
+    height: 50vh;
+    margin: 0 auto;
 }
 
 .item {
-    background: cornflowerblue;
-    max-width: 30rem;
+    background: green;
 }
