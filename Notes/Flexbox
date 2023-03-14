@@ -6,6 +6,8 @@ Space can be distributed inside the items, so they become bigger and smaller acc
 Space can be distributed around the items and flex lines in a wrapped layout, using the Box Alignment properties.
 The items themselves can be aligned on the cross axis.
 
+WICHTIG: Rather than selecting children, use .flex-container > *, to select all children.
+
 
 flex-direction:
 row: the items lay out as a row.
@@ -17,10 +19,22 @@ column-reverse : the items lay out as a column from the end of the flex containe
 flex-wrap: wrap;
 The initial value of the flex-wrap property is nowrap. This means that if there is not enough space in the container the items will overflow.
 
+//To fill empty space:
+flex-grow: 1; to fill.
+//To set the size of items
+flex-basis: 33% (would let max 3 items into row);
+
+
+To Make Flex items equal:
+flex: 1;
+
+
 //To shrink or grow size of items:
 flex: 1;
 flex: 2;
 flex: 3;
+
+For gap: gap: 10rem;
 
 //Reorder items:
 order: 1,2,3,4
@@ -32,9 +46,43 @@ align-items: space distribution on the cross axis.
 //X - Y Axis Alignment
 place-content: a shorthand for setting both of the above properties.
 
-//To set flex direction of child-items
+//To set flex direction of child item that is different from others!
 align-self: flex-start
 
 ---
 MINMAX:
 set min and max at same time.
+
+
+
+// BIG TUT:
+
+Flex Grow: Sets the distribution of empty space on items.
+Example:
+
+//Will distribute free space evenly
+    .nav-list li {
+    flex-grow: 1;
+    }
+
+flex-shrink: If there is not enough space, let items shrink.
+
+flex-wrap: wrap: Lets items Wrap!
+
+flex: 1 = makes all items same size. Actually just changes flex-basis to 0.
+
+//To set flex direction of child item that is different from others!
+align-self: flex-start
+
+
+
+
+
+
+
+
+
+
+
+
+
